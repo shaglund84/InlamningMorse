@@ -35,9 +35,23 @@ public class MorseLogic {
     }
 
     private boolean isMorse(String input) { // metod för att avgöra om input är morse-kod
-        return input.contains("*") || input.contains("-") || input.contains(" ");
+        return input.contains("*") || input.contains("-");
     }
+    // Metod för att säkerställa att vår input innehåller giltiga tecken
+    static boolean isValidInput(String input) {
+        String validCharacters = "*-" +
+                "ABCDEFGHIJKLMNOPQRSTUVWXYZ" +
+                "abcdefghijklmnopqrstuvwxyz" +
+                "0123456789" +
+                ".,?" + " ";
 
+        for (char c : input.toCharArray()) {
+            if (validCharacters.indexOf(c) == -1) { // om ett ogiltigt tecken anges, return false
+                return false;
+            }
+        }
+        return true; // om tecknen är giltiga, return true
+    }
     String textToMorse(String text) { // metod som översätter text->morse
         StringBuilder result = new StringBuilder(); // lagrar resultatet i en StringBuilder
         for (char c : text.toUpperCase().toCharArray()) { // varje tecken gås igenom och görs till uppercase

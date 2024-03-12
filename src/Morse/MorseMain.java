@@ -1,6 +1,8 @@
 package Morse;
 import java.util.Scanner;
 
+import static Morse.MorseLogic.isValidInput;
+
 public class MorseMain {
     public static void main(String[] args) {
         try {
@@ -23,19 +25,4 @@ public class MorseMain {
         }
     }
 
-    // Metod för att säkerställa att vår input innehåller giltiga tecken
-    private static boolean isValidInput(String input) {
-        String validCharacters = "*-" +
-                "ABCDEFGHIJKLMNOPQRSTUVWXYZ" +
-                "abcdefghijklmnopqrstuvwxyz" +
-                "0123456789" +
-                ".,?";
-
-        for (char c : input.toCharArray()) {
-            if (validCharacters.indexOf(c) == -1) { // om ett ogiltigt tecken anges, return false
-                return false;
-            }
-        }
-        return true; // om tecknen är giltiga, return true
-    }
 }
