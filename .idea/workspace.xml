@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc50b49f-8e2a-4d94-8ec8-b80d4fb3132b" name="Changes" comment="My converter" />
+    <list default="true" id="dc50b49f-8e2a-4d94-8ec8-b80d4fb3132b" name="Changes" comment="My converter">
+      <change beforePath="$PROJECT_DIR$/src/Morse/MorseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Morse/MorseTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +14,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "shaglund84"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="37f4679a-481d-4855-90f4-6e5c26af6dac" />
+        <option name="url" value="https://github.com/shaglund84/Inlamning2024.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
@@ -63,7 +82,28 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1710177211486</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="My converter">
+      <option name="closed" value="true" />
+      <created>1710177343720</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1710177343720</updated>
+    </task>
+    <task id="LOCAL−00004" summary="My converter">
+      <option name="closed" value="true" />
+      <created>1710177741170</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1710177741170</updated>
+    </task>
+    <task id="LOCAL−00005" summary="My converter">
+      <option name="closed" value="true" />
+      <created>1710177808030</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1710177808030</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

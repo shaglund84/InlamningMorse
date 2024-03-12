@@ -28,7 +28,7 @@ public class MorseTest {
     public void testInvalidCharacters() {
         MorseLogic morseLogic = new MorseLogic();
         String testdata = "!#%&"; // Innehåller ogiltiga tecken
-        String expected = ""; // Förväntat resultat är en tom sträng (inga omvandlingar görs)
+        String expected = ""; // Förväntat resultat är en tom sträng (ingen översättning görs)
         String actual = morseLogic.textToMorse(testdata);
         assertEquals(expected, actual);
 
