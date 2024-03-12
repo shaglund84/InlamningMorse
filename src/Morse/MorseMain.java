@@ -1,4 +1,5 @@
 package Morse;
+
 import java.util.Scanner;
 
 import static Morse.MorseLogic.isValidInput;
@@ -24,5 +25,4 @@ public class MorseMain {
             System.out.println("Error: " + e.getMessage());
         }
     }
-
 }

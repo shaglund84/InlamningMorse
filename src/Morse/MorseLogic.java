@@ -44,7 +44,6 @@ public class MorseLogic {
                 "abcdefghijklmnopqrstuvwxyz" +
                 "0123456789" +
                 ".,?" + " ";
-
         for (char c : input.toCharArray()) {
             if (validCharacters.indexOf(c) == -1) { // om ett ogiltigt tecken anges, return false
                 return false;
@@ -67,7 +66,7 @@ public class MorseLogic {
 
     String morseToText(String morseCode) { // metod som översätter morse->text
         StringBuilder result = new StringBuilder();
-        String[] words = morseCode.split("   "); // morsekoden sparas i en array och separeras med tre mellanslag för att göra det tydligare
+        String[] words = morseCode.split(" {3}"); // morsekoden sparas i en array och separeras med tre mellanslag för att göra det tydligare
         for (String word : words) { // varje ord i word-arrayen gås igenom (med en enchanced for-loop för det blev snyggare
             String[] letters = word.split(" "); // delar upp med mellanslag
             for (String letter : letters) {
